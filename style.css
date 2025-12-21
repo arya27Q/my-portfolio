@@ -36,17 +36,37 @@ nav {
     align-items: center;
 }
 
-.logo { font-size: 24px; font-weight: 800; color: var(--gelap); text-decoration: none; }
+.logo { 
+    font-size: 24px; 
+    font-weight: 800; 
+    color: var(--gelap); 
+    text-decoration: none; 
+}
 .logo span { color: var(--biru-utama); }
 
-.menu-navigasi { display: flex; list-style: none; gap: 30px; }
+.menu-navigasi { 
+    display: flex; 
+    list-style: none; 
+    gap: 10px; 
+    align-items: center;
+}
+
 .menu-navigasi a {
     text-decoration: none;
     color: var(--abu-abu);
     font-weight: 600;
+    padding: 10px 20px; 
+    border-radius: 50px; 
     transition: var(--transisi);
+    display: inline-block;
 }
-.menu-navigasi a:hover { color: var(--biru-utama); }
+
+
+.menu-navigasi a:hover { 
+    background-color: var(--biru-utama); 
+    color: white; 
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); 
+}
 
 
 section { padding: 100px 40px; max-width: 1200px; margin: 0 auto; }
